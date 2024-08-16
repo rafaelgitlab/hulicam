@@ -1,0 +1,88 @@
+body {font-family: "calibri", Garamond, 'Comic Sans MS';}
+
+
+.sidenav {
+    width: 155px;
+    position: fixed;
+    z-index: 5;
+    top: 30px;
+    left: 10px;
+    overflow-x: none;
+    padding: 8px 0;
+  
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.sidenav a {
+
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    display: block;
+}
+
+.sidenav a:hover {
+
+    border-radius: 1px;
+    text-decoration: none;
+    background-color: #064579;
+    color: #ffffff;
+    background-color: scale(1.5);  
+    transition: background-color .3s;
+}
+
+button {
+    background-color: #064579;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.main {
+
+    margin-top: 30px;
+    margin-left: 170px; /* Same width as the sidebar + left position in px */
+    font-size: 14px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    overflow-x: auto;
+
+}
+
+
+.main2 {
+
+	
+    font-size: 14px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    overflow-x: auto;
+
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.logo{
+ 
+    width:100%;
+}
+
+
+.user{
+    height:130px;
+    width:100%;
+}
